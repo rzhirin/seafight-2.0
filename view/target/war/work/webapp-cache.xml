@@ -1,0 +1,35 @@
+<webapp-structure>
+  <registeredFiles>
+    <entry>
+      <string>currentBuild</string>
+      <path-set>
+        <pathsSet class="linked-hash-set">
+          <string>WEB-INF/lib/domain-2.0.jar</string>
+          <string>WEB-INF/lib/hibernate-core-4.1.4.Final.jar</string>
+          <string>WEB-INF/lib/antlr-2.7.7.jar</string>
+          <string>WEB-INF/lib/jboss-logging-3.1.0.GA.jar</string>
+          <string>WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar</string>
+          <string>WEB-INF/lib/dom4j-1.6.1.jar</string>
+          <string>WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar</string>
+          <string>WEB-INF/lib/javassist-3.15.0-GA.jar</string>
+          <string>WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar</string>
+          <string>WEB-INF/lib/hibernate-entitymanager-4.1.4.Final.jar</string>
+        </pathsSet>
+      </path-set>
+    </entry>
+  </registeredFiles>
+  <dependenciesInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>seafight</groupId>
+        <artifactId>domain</artifactId>
+        <version>2.0</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>domain-2.0.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+  </dependenciesInfo>
+</webapp-structure>
